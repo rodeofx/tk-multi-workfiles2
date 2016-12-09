@@ -122,7 +122,7 @@ class EntityTreeForm(QtGui.QWidget):
             else:
                 self._ui.entity_tree.setModel(entity_model)
 
-        self._expand_root_rows()
+        # self._expand_root_rows()
 
         # connect to the selection model for the tree view:
         selection_model = self._ui.entity_tree.selectionModel()
